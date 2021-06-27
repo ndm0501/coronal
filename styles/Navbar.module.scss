@@ -1,0 +1,43 @@
+.navContainer {
+    width: 100%;
+    display: flex;
+    height: 100px;
+    border: 1px solid blueviolet;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+
+
+    .navBar {
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        border: 1px solid red;
+
+        .navLogo {
+            border: 1px solid brown;
+            height: 100%;
+            display: flex;
+            width: 20%;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .navLinks {
+            border: 1px solid lime;
+            width: 60%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+
+            ul {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+            }
+        }
+    }
+
+}
