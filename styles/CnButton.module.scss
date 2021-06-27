@@ -1,0 +1,19 @@
+@import 'colors';
+
+.cnBtn {
+    min-width: 60px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    padding: 15px 10px;
+    color: $cn-white;
+    line-height: 1.5px;
+
+    &.cnBtnMedium {
+        height: 45px;
+    }
+
+    &.cnBtnPrimary {
+        background-color: $cn-red;
+    }
+
+}
